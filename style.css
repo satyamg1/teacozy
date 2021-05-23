@@ -3,38 +3,118 @@ html{
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    opacity: 0.9;
     text-align: center;
 }
 
 
-.out_mission{
+header{
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    z-index: 1;
+}
+
+header span{
+    margin: 10px;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+header img{
+    height: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+body{
+    margin-top: 69px;   
+}
+
+h2,p{
+    font-weight: bold;
+}
+
+
+#out_mission{
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
     width: 1200px;
     height: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .mission{
     background-color: black;
-    position: relative;
-    top: 350px;;
+    width: 100%;
 }
 
-.teaofmonth .images img{
+
+#teaofmonth{
+    margin: auto;
+    padding-top: 30px;
+    width: 1000px;
+    padding-bottom: 60px;
+}
+
+
+.row1{
+    display: flex;
+    justify-content:space-around ;
+    margin-bottom: 20px;
+}
+
+.column1{
+    display: inline-block;
+}
+
+.column2{
+    display: inline-block;
+    padding: 10px;
+}
+
+ #teaofmonth img{
     height: 200px;
     width: 300px;
 }
 
-.locations{
-    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
-    width: 1200px;
-    height: 500px;
+figcaption{
+    margin-top: 10px;
 }
 
-.locations div{
+#locations{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+}
+
+#locations h2{
+    padding-top: 60px ;
+    margin: 15px;
+}
+
+#locations div{
     width: 300px;
     background-color: black;
     display: inline-block;
-    margin: 20px;
+    margin: 0 20px;    
+}
+
+
+footer div{
+    height: 200px;
+}
+
+.copyright{
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
