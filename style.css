@@ -1,0 +1,40 @@
+html{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+.out_mission{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+}
+
+.mission{
+    background-color: black;
+    position: relative;
+    top: 350px;;
+}
+
+.teaofmonth .images img{
+    height: 200px;
+    width: 300px;
+}
+
+.locations{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+}
+
+.locations div{
+    width: 300px;
+    background-color: black;
+    display: inline-block;
+    margin: 20px;
+}
+
